@@ -1,0 +1,43 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:wght@300&family=Montserrat:wght@100&family=Noto+Sans+Buhid&family=Open+Sans:ital,wght@1,500&family=Roboto:wght@300;500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Crimson+Text&family=Merriweather:wght@300&family=Montserrat:wght@100&family=Noto+Sans+Buhid&family=Open+Sans:ital,wght@1,500&family=Roboto:wght@300;500&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+}
+header h1 {
+  text-align: center;
+}
+.img {
+  background-image: url(/images/the-golden-gate-bridge-1956459_1920.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  height: 500px;
+}
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  list-style-type: none;
+}
+nav ul li {
+  margin-right: 15px;
+}
+nav ul li a {
+  text-decoration: none;
+}
+nav a:hover {
+  color: gold;
+  cursor: pointer;
+}
+main section article h2 {
+  text-align: center;
+}
+main h3,
+footer {
+  text-align: center;
+}
+main p {
+  text-align: justify;
+}
